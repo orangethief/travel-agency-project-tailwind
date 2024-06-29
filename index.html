@@ -12,11 +12,15 @@
         *::after {
           box-sizing: border-box;
         }
+
+        .hero-section-p::before {
+            content:"";
+        }
       </style>
 </head>
 
 <body class="m-0 p-0 font-sans">
-    <header class="parvin-header w-full transition bg-gradient-to-r from-[#a37d93] to-[#403861] duration-300 ease-in-out flex justify-between px-7 py-6 fixed top-0 left-0 z-1000 shadow-lg border-b">
+    <header class="parvin-header w-full transition bg-gradient-to-r from-[#a37d93] to-[#403861] duration-300 ease-in-out flex justify-between items-center px-7 py-6 fixed top-0 left-0 z-20 shadow-lg border-b">
         <div class="logo text-xl font-semibold text-[#ffffff]">
             <img class="h-24 border-2 rounded-lg p-1 bg-[#ffffff33] " src="media/logo.png" alt="Travel Agency by LTP Trio Logo">
         </div>
@@ -29,29 +33,29 @@
         </nav>
     </header>
 
-    <section class="hero-section-p">
-        <div class="hero-left-p">
-            <div class="editor-choice-p">#1 Editors Choice App of 2024</div>
-            <h1>Travel With Excitement</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mass.</p>
-            <button>Get in Touch</button>
+    <section class="hero-section-p flex flex-row justify-around align-middle bg-cover p-2 mt-36 relative text-white bg-no-repeat bg-center before:absolute before:top-0 before:left-0 before:w-full before:h-full bg-black z-10 rounded-lg" style="background-image: url('https://picsum.photos/300/200');">
+        <div class="hero-left-p bg-[#f5f5f5e8] p-10 rounded-lg shadow-lg text-center flex-1 m-5 z-10 relative">
+            <div class="editor-choice-p text-lg text-[#555] mb-4 bg-[#ffffffcc] p-1 rounded-lg inline-block">#1 Editors Choice App of 2024</div>
+            <h1 class="text-3xl mb-4 text-[#403861]">Travel With Excitement</h1>
+            <p class="text-lg text-[#333] mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mass.</p>
+            <button class="bg-[#403861] text-[#fff] py-3 px-6 border-none rounded-lg cursor-pointer transition-all duration-300 hover:bg-[#a37d93] transform hover:scale-105">Get in Touch</button>
         </div>
-        <div class="hero-right-p">
-            <h2>About Us</h2>
-            <p>Travel Agency by LTP Trio</p>
-            <button>Get to Know Us</button>
+        <div class="hero-right-p bg-[#f5f5f5e8] p-10 rounded-lg shadow-lg text-center flex-1 m-5 z-10 relative">
+            <h2 class="text-3xl mb-4 text-[#403861]">About Us</h2>
+            <p class="text-lg text-[#333] mb-6">Travel Agency by LTP Trio</p>
+            <button class="bg-[#403861] text-[#fff] py-3 px-6 border-none rounded-lg cursor-pointer transition-all duration-300 hover:bg-[#a37d93] transform hover:scale-105">Get to Know Us</button>
         </div>
     </section>
 
 <!-- Trusted companies section -->
-<section class="trusted-companies-p">
-    <h2>Trusted by companies like</h2>
-    <div class="companies-logos-p">
-        <img src="https://i.pinimg.com/736x/cb/14/a4/cb14a4b97cc5ca03bbfa5a8b8e1bc5c0.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
-        <img src="https://i.pinimg.com/736x/30/02/f3/3002f31b60e994b07128ab5d1204a832.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
-        <img src="https://i.pinimg.com/736x/62/fd/f3/62fdf3fb89665df09d3e0658cdb8b09e.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
-        <img src="https://i.pinimg.com/736x/34/e8/a4/34e8a41ddff70fafc2140eaba0dc2abb.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
-        <img src="https://i.pinimg.com/736x/79/2b/c9/792bc9f5ca882dd26d13bc5b0ac3337a.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+<section class="trusted-companies-p bg-[#e0e0e0] py-10 px-5 text-center">
+    <h2 class="text-lg text-[#333] mb-5">Trusted by companies like</h2>
+    <div class="companies-logos-p flex justify-center align-middle gap-5 flex-wrap">
+        <img class="w-52 h-52 border-1 rounded-lg object-cover shadow-lg" src="https://i.pinimg.com/736x/cb/14/a4/cb14a4b97cc5ca03bbfa5a8b8e1bc5c0.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img class="w-52 h-52 border-1 rounded-lg object-cover shadow-lg" src="https://i.pinimg.com/736x/30/02/f3/3002f31b60e994b07128ab5d1204a832.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img class="w-52 h-52 border-1 rounded-lg object-cover shadow-lg" src="https://i.pinimg.com/736x/62/fd/f3/62fdf3fb89665df09d3e0658cdb8b09e.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img class="w-52 h-52 border-1 rounded-lg object-cover shadow-lg" src="https://i.pinimg.com/736x/34/e8/a4/34e8a41ddff70fafc2140eaba0dc2abb.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img class="w-52 h-52 border-1 rounded-lg object-cover shadow-lg" src="https://i.pinimg.com/736x/79/2b/c9/792bc9f5ca882dd26d13bc5b0ac3337a.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
     </div>
 </section>
 
