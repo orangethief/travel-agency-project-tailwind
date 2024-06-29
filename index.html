@@ -1,11 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency by LTP Trio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
+      </style>
 </head>
-<body>
-   <p>hello</p>
+
+<body class="m-0 p-0 font-sans">
+    <header class="parvin-header">
+        <div class="logo">
+            <img src="media/logo.png" alt="Travel Agency by LTP Trio Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#prices">Prices</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section-p">
+        <div class="hero-left-p">
+            <div class="editor-choice-p">#1 Editors Choice App of 2024</div>
+            <h1>Travel With Excitement</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet mass.</p>
+            <button>Get in Touch</button>
+        </div>
+        <div class="hero-right-p">
+            <h2>About Us</h2>
+            <p>Travel Agency by LTP Trio</p>
+            <button>Get to Know Us</button>
+        </div>
+    </section>
+
+<!-- Trusted companies section -->
+<section class="trusted-companies-p">
+    <h2>Trusted by companies like</h2>
+    <div class="companies-logos-p">
+        <img src="https://i.pinimg.com/736x/cb/14/a4/cb14a4b97cc5ca03bbfa5a8b8e1bc5c0.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img src="https://i.pinimg.com/736x/30/02/f3/3002f31b60e994b07128ab5d1204a832.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img src="https://i.pinimg.com/736x/62/fd/f3/62fdf3fb89665df09d3e0658cdb8b09e.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img src="https://i.pinimg.com/736x/34/e8/a4/34e8a41ddff70fafc2140eaba0dc2abb.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+        <img src="https://i.pinimg.com/736x/79/2b/c9/792bc9f5ca882dd26d13bc5b0ac3337a.jpg"></img> <!-- Lisa - exchanged iframes with pictures and direct urls so it works-->
+    </div>
+</section>
+
+
+    <!--header end-->
+
+    <!--hero catchy line start - Parvin-->
+    <!--hero catchy line end - Parvin-->
+
+    <!--trusted by companies start - Parvin-->
+    <!--trusted by companies end - Parvin-->
+
+    <!--video start - Timur-->
+    <div class="video-section">
+        <h2 class="h2Timur">Discover magical places with us!</h2>
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="./media/videoTravel.mp4" alt="Taryn Elliott" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <!--video end - Timur-->
+
+    <!--awesome apps start - Timur-->
+    <div class="features-section">
+        <h2 class="classTimur">
+            Transform Your <i>Travel Experience</i> with <br /><span>LTP Travel Agency</span>
+            's Cutting-Edge App!
+        </h2>
+
+        <p class="pTimur">
+            "Experience hassle-free bookings with our intuitive app!<br />
+            With just a tap, secure your favorite travel services and enjoy
+            real-time updates.<br />
+            Maximize your savings with exclusive offers and stay organized
+            effortlessly."
+        </p>
+        <div class="features">
+            <div class="feature">
+                <div class="icon">
+                    <img src="./media/icon1.png" alt="Seamless Booking Icon" />
+                </div>
+                <p><strong>Seamless Booking</strong></p>
+                <p>
+                    Book your favorite travel services instantly with our user-friendly
+                    interface.
+                </p>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <img src="./media/icon2.png" alt="Real-Time Updates Icon" />
+                </div>
+                <p><strong>Real-Time Updates</strong></p>
+                <p>
+                    Stay informed with instant notifications and updates on your
+                    bookings.
+                </p>
+            </div>
+            <div class="feature">
+                <div class="icon">
+                    <img src="./media/icon3.png" alt="Exclusive Offers Icon" />
+                </div>
+                <p><strong>Exclusive Offers</strong></p>
+                <p>
+                    Unlock special deals and discounts available only through our app.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--awesome apps end - Timur-->
+
+    <!--why you choose start - Lisa-->
+    <section class="why-block text-center p-8 bg-gradient-to-r from-[#a37d93] to-[#403861]">
+        <h2 class="p-8 text-[whitesmoke] font-bold text-3xl" id="features">WHY YOU SHOULD TRAVEL WITH US</h2>
+        <div class="why grid justify-around content-center gap-12 lg:gap-6 py-0 px-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="why-item flex flex-col items-center">
+                <img class="lg:w-24 w-40 rounded-full" src="https://i.pinimg.com/originals/68/11/7c/68117cd253b9905049e4347b33765b91.jpg"
+                    alt="picture of view from plane" />
+                <p class="text-[whitesmoke]">
+                    Expertly curated experiences, ensuring memorable trips every time.
+                </p>
+            </div>
+            <div class="why-item flex flex-col items-center">
+                <img class="lg:w-24 w-40 rounded-full" src="https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg"
+                    alt="person standing at the ocean" />
+                <p class="text-[whitesmoke]">
+                    Exclusive access to hidden gems and local secrets around the world.
+                </p>
+            </div>
+            <div class="why-item flex flex-col items-center">
+                <img class="lg:w-24 w-40 rounded-full" src="https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg"
+                    alt="woman standing in a field" />
+                <p class="text-[whitesmoke]">
+                    Hassle-free planning, we handle all the details for a stress-free
+                    trip.
+                </p>
+            </div>
+            <div class="why-item flex flex-col items-center">
+                <img class="lg:w-24 w-40 rounded-full" src="https://images.pexels.com/photos/2215380/pexels-photo-2215380.jpeg"
+                    alt="big rocks in the ocean" />
+                <p class="text-[whitesmoke]">
+                    24/7 customer support, always there when you need us on your
+                    journey.
+                </p>
+            </div>
+            <div class="why-item flex flex-col items-center">
+                <img  class="lg:w-24 w-40 rounded-full" src="https://images.pexels.com/photos/3551207/pexels-photo-3551207.jpeg"
+                    alt="cars parked in the forest" />
+                <p class="text-[whitesmoke]">
+                    Personalized itineraries tailored to your interests and preferences.
+                </p>
+            </div>
+            <div class="why-item flex flex-col items-center">
+                <img class="lg:w-24 w-40 rounded-full" src="https://images.pexels.com/photos/62600/pexels-photo-62600.jpeg" alt="red rocks" />
+                <p class="text-[whitesmoke]">Special deals and discounts, making your dream trip affordable.</p>
+            </div>
+        </div>
+    </section>
+    <!--why you choose end - Lisa-->
+
+    <!--awesome feature start - Lisa-->
+<section class="awesome bg-gradient-to-r from-[#a37d93] to-[#403861] pt-16 px-8 pb-8">
+    <h2 class="text-center mt-0 mb-4 mx-8 text-[whitesmoke] font-bold text-3xl" id="prices">Get awesome features, without extra charges</h2>
+    <p class="text-center text-[whitesmoke]">We guarantee an amazing holiday experience - without extra charges! For even more and better, take a look at our packages.</p>
+    <div class="awesomeContainer flex flex-wrap justify-center items-center content-center">
+        <div class="w-11/12 sm:w-1/3 lg:w-1/4 h-64 bg-[#e0e0e0] m-4 text-center relative rounded-lg">
+            <p class=" mt-4 mb-12 mx-0 font-bold text-3xl text-[#403861]">$0</p>
+           <div id="div.button1"><button class="bottom-10 left-1/2 transform -translate-x-1/2 shadow-xl bg-[#403861] text-white py-3 px-6 border-none cursor-pointer rounded-lg font-bold absolute font-3xl hover:bg-[#a37d93]">MORE INFORMATION</button>
+            </div>
+        </div>
+        <div class="w-11/12 sm:w-1/3 lg:w-1/4 h-64 bg-[#e0e0e0] m-4 text-center relative rounded-lg">
+            <p class="mt-4 mb-12 mx-0 font-bold text-3xl text-[#403861]">$45</p>
+            <button class="bottom-10 left-1/2 transform -translate-x-1/2 shadow-xl bg-[#403861] text-white py-3 px-6 border-none cursor-pointer rounded-lg font-bold absolute font-3xl hover:bg-[#a37d93]">BOOK NOW</button>
+        </div>
+        <div class="w-11/12 sm:w-1/3 lg:w-1/4 h-64 bg-[#e0e0e0] m-4 text-center relative rounded-lg">
+            <p class="mt-4 mb-12 mx-0 font-bold text-3xl text-[#403861]">$99</p>
+            <button class="bottom-10 left-1/2 transform -translate-x-1/2 shadow-xl bg-[#403861] text-white py-3 px-6 border-none cursor-pointer rounded-lg font-bold absolute font-3xl hover:bg-[#a37d93] ">BOOK NOW</button>
+        </div>
+    </div>
+</section>
+
+    <!--awesome feature end - Lisa-->
+
+    <!--footer start - Lisa-->
+    <footer class="bg-gradient-to-r from-[#a37d93] to-[#403861]">
+        <div class="footerDiv grid grid-cols-12 grid-rows-3 justify-center md:justify-around content-center items-center gap-1 sm:gap-x-2 p-8 mx-4 sm:mx-12 md:mx-96">
+            <div class="col-span-12 footerHeading text-center table"><h2 class="font-bold text-3xl text-[whitesmoke]">Travel Agency by LTP Trio</h2></div>
+            <div class="col-span-4 footerHome text-center table "><a class="align-middle table-cell text-[#333] hover:text-[whitesmoke] font-bold" href="#"><span>Home</span></a></div>
+            <div class="col-span-4 footerFeatures text-center table"><a class="align-middle table-cell text-[#333] hover:text-[whitesmoke] font-bold" href="#features"><span>Features</span></a></div>
+            <div class="col-span-4 footerPrices text-center table"><a class="align-middle table-cell text-[#333] hover:text-[whitesmoke] font-bold" href="#prices"><span>Prices</span></a></div>
+            <div class="col-span-3 footerFB flex justify-center items-center text-center"><img src="./media/facebook_icon.png" alt="facebook_icon"></div>
+            <div class="col-span-3 footerIG flex justify-center items-center text-center"><img src="./media/instagram_icon.png" alt="instagram_icon"></div>
+            <div class="col-span-3 footerYT flex justify-center items-center text-center"><img src="./media/youtube_icon.png" alt="youtube_icon"></div>
+            <div class="col-span-3 footerLI flex justify-center items-center text-center"><img src="./media/linkedin_icon.png" alt="linkedin_icon"></div>
+        </div>
+    </footer>
+    <!--footer end - Lisa-->
 </body>
+
 </html>
